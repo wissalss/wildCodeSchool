@@ -1,0 +1,189 @@
+
+
+        /* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+        /* GENERALE BODY */
+
+body
+{
+    background: url(https://static1.squarespace.com/static/5828f32d8419c24bb266b98f/5bb5a7cd085229db6ff97a59/5c47043a032be40b01386312/1548158829472/50091092_2302019946496755_6792658054715277312_o.jpg?format=2500w) ;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h2 
+    {
+      font-size:40px;
+      text-align: center;
+      color: #800000;
+      margin: 30px auto;
+      width: 60%;
+      border-bottom: 1px solid #e9967a; 
+      padding-bottom: 10px;
+      font-family: Amatic SC;
+        
+    }
+h3
+{
+    font-family:arial;
+    color:#332200;
+    font-size:16px; 
+    text-align: center;
+    font-family: Amatic SC;
+}
+p 
+    {
+      font-family:arial;
+      color: black;
+      font-size:16px 
+    }
+
+section
+{
+    margin: 20px auto;
+}
+.container
+{
+    background-color: rgba(255,230,230,0.8);
+    border: 2px #FFE4C4 solid;
+    border-radius: 3%;
+}
+.navbar
+{
+    background-color: #002b80;
+}
+.navbar-collapse
+{
+    text-align: center;
+}
+.navbar-nav
+{
+    text-align: center;
+}
+#monmenu
+{
+    justify-content: center;
+  
+}
+
+
+        /* PERFORMENCE */ 
+
+
+#pe
+{
+    justify-content: center;
+}
+#per li
+{
+  text-align: center;
+  list-style: none;
+}
+#per h3
+{
+    margin-bottom: 20px;
+    color: #4d0000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#per p
+{
+    margin: 20px 10px;
+    color: #4d0000;
+    font-family: cursive;
+}
+#laugh,#dream,#marvel
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  margin: auto;
+}
+#laugh{
+  background-image: url(https://media.giphy.com/media/xUOxf5Kdbk2JObmHq8/giphy.gif);
+  background-position: center;
+}
+#dream{
+  background-image: url(https://media.giphy.com/media/3o6ZsYtv698fmY6Jjy/giphy.gif);
+  background-position: center;
+}
+#marvel{
+  background-image: url(https://media.giphy.com/media/p5kbNII0km8lW/giphy.gif);
+  background-position: center;
+}
+
+
+/*             ABOUT */
+
+    
+}
+#propo p
+{
+    text-align: center;
+    padding: 10px 30px;
+    line-height: 30px;
+    color:#332200;
+    font-family: cursive;
+    justify-content: center;
+}
+#textpropo
+{
+    text-align: center;
+}
+
+            /* PRIX */
+
+table
+{
+    
+  text-align: center;
+  margin: 10px auto;
+  border: 3px #A52A2A solid;
+  border-collapse: collapse;
+}
+ 
+
+tr td, tr th
+{
+  padding: 15px;
+  border: 3px solid #A52A2A;
+}
+
+            /* Contact */
+.form-group
+{
+    padding: 0 10%;
+}
+#bouton
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #660000;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+            /* footer */
+
+footer
+{
+    background-color: #002b80;
+}
+footer p
+{
+    color: azure;
+    text-align: center; 
+    font-size: 15px;
+    padding-top : 15px;
+    margin: 0px;
+    padding-bottom: 15px;
+} 

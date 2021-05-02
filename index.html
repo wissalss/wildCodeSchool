@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html  lang="fr">
+    <head>
+        
+<!--        lien page CSS-->
+        
+                 <link href="style.css" rel="stylesheet">
+        
+<!--        les meta -->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--        lien bootstrap et Jquery -->
+        
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--        Font-->
+        
+                 <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+      
+       
+        <title>Wild Circus</title>
+    </head>
+
+    <body>
+               
+        <nav class="navbar navbar-expand-md navbar-dark ">
+  <a class="navbar-brand" href="#">Wild Circus</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monmenu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="monmenu">
+    <ul class="navbar-nav ">
+        
+      <li class="nav-item">
+        <a class="nav-link" href="#per">Performances</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#propo">About Us</a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#prix">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+        
+        <section id="per" class="container">
+
+          <h2>Performances</h2>
+          <ul>
+              <div id="pe" class="row">
+            <li class="col-xs-8 col-md-3">
+                <h3>Laugh</h3>
+                
+                <div id="laugh"></div>
+                <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+             </li>
+
+             <li class="col-xs-8 col-md-3">
+                <h3>Dream</h3>
+                 <div id="dream"></div>
+                <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+             </li>
+
+
+             <li class="col-xs-8 col-md-3">
+                <h3>Marvel at</h3>
+                 <div id="marvel" ></div>
+                <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+             </li>
+                  </div>
+          </ul>
+        </section>
+
+
+        <section id="propo" class="container">
+          <h2>About Us</h2>
+    
+            <p id="textpropo"> We are a circus with special kind of entertainment that can be enjoyed by children and adults. <br>
+                we have a group of performers that may include acrobats, clowns, trained animals, magicians, musicians,  and other artists who perform stunts. <br> <strong>So come join us and live an unforgettable expirence</strong></p>
+        </section>
+    
+
+        <section id="prix" class="container">
+          <h2>Prices</h2>
+        
+             <table class="table-sm" id="prices">
+                 <thead>
+            <tr>
+                <td></td>
+                <td>Adults</td>
+                <td>Children (under 12 years)</td>
+                <td>Group (more than 10 people)</td>
+                <td>Schools</td>
+            </tr>
+                     </thead>
+                 <tbody>
+            <tr>
+                <th>Weeks except Wednesday</th>
+                <td>15€</td>
+                <td>10€</td> 
+                <td>12€/p</td>
+                <td>7€</td>
+
+              </tr>
+            <tr>
+            <th>Weekends and Wednesdays</th>
+                <td>20€</td>
+                <td>10€</td>
+                <td>15€/p</td>
+                <td>7€</td>
+            </tr>
+                     </tbody>
+          </table>
+        </section>
+
+
+        <section id="contact" class="container">
+            
+          <h2>Contact Us</h2>
+          <form class="form-group">
+              <div>
+                        
+                          <label for="mail">E-Mail</label>
+                          <input class="form-control" type="text" id="mail" placeholder="Enter your e-mail ">
+                </div>
+                <div>
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                          <input class="btn btn-block" type="submit" value="Ok" id="bouton"> 
+                        
+                </div>
+                    </form>
+                
+        </section>
+
+        <footer class="container-fluid">
+          <p>Wild Circus by <a href="https://www.linkedin.com/in/wissal-senussi-28b889167/" >WISSAL SENUSSI </a> <br> <a href="http://www.france-ioi.org/user/perso.php?sLogin=wissalsenussi">France-IOI</a> - <a href="https://wildcodeschool.fr" > Wild Code School</a> - 07-02-2020</p>
+        </footer>
+    </body>
+</html>
